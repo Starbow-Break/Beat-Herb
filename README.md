@@ -53,21 +53,21 @@
 |**홈 화면**|**로그인 화면**|
 
 #### 작업실 화면 (소리 쌓기 화면)
-|![work1](/uploads/eb0b428c06b054b69a7b5222e76514a1/work1.gif){width=500px height=250px}|![work2](/uploads/6016423a0dc2af6369357c7acbab6b59/work2.gif){width=500px height=250px}|
+|<img alt="work1" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/7c6e66ea-0b11-4836-b0b8-449fbd1cd9b6" width="500" height="250">|<img alt="work2" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/9847f0d1-4b61-4fdd-bcee-5b1a623ce72dc" width="500" height="250">|
 |:---:|:---:|
 |**내 컴퓨터에서 음원 파일 가져오고 BeatHerb에서 <br />마음에 드는 소리를 쌓은 후 업로드하는 화면**|**BeatHerb에서 마음에 드는 소리를 가져오고 <br />가상 악기로 만든 소리를 쌓은 후 업로드하는 화면**|
 #### 컨텐트 상세 검색 화면
-|![detail_search](/uploads/39521cd33e4cd625e61058e9a23921d9/detail_search.gif){width=500px height=250px}|
+|<img alt="detail_search" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/9a91cb21-0f80-438c-81d6-b747f7794715" width="500" height="250">|
 |:---:|
 |**컨텐트 상세 검색 화면**|
 
 #### 게시판 화면
-|![content](/uploads/d3a75cf9a72319b12029e1591b2506d1/content.gif){width=500px height=250px}|![live](/uploads/915b35e7e3ecf7fc081ba2a2d5e5027e/live.gif){width=500px height=250px}
+|<img alt="content" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/defb51fc-1946-475d-9a2f-9e69779a8158" width="500" height="250">|<img alt="live" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/19d4e8ea-e2ee-46c7-94ec-16994fa2c917" width="500" height="250">
 |:---:|:---:|
 |**전체 컨텐트 게시판 화면**|**라이브 게시판 화면**|
 
 #### 라이브 화면
-|![livecat](/uploads/e8bcf51e339fd01eecb172b5c9441f59/livecat.gif){width=500px height=250px}|
+|<img alt="livecat" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/19d4e8ea-e2ee-46c7-94ec-16994fa2c917" width="500" height="250">|
 |:---:|
 |**라이브 화면**|
 
