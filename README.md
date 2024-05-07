@@ -48,7 +48,7 @@
 
 ## 3. 서비스 화면
 #### 홈 화면 & 로그인 화면
-|![home](https://github.com/Starbow-Break/Beat-Herb/assets/103927296/5bead36f-9f06-4576-a50e-ea1b73dacbbf){width=500px height=250px}|![login](/uploads/cf2df092ca02d3850cbe0dd1c968f9e0/login.gif){width=500px height=250px}|
+|![home](https://github.com/Starbow-Break/Beat-Herb/assets/103927296/5bead36f-9f06-4576-a50e-ea1b73dacbbf){width=500px height=250px}|![login](https://github.com/Starbow-Break/Beat-Herb/assets/103927296/f6e1f9df-9f1c-4cb6-9cce-b2d7a2633e7c){width=500px height=250px}|
 |:---:|:---:|
 |**홈 화면**|**로그인 화면**|
 
