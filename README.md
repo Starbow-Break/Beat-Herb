@@ -1,7 +1,7 @@
 # BeatHerb
 ### SSAFY 10기 공통 프로젝트 서울 5반 :musical_score: 'Bit는 알아도 Beat는 모른다' :musical_score: <br /> (2024.01.08 ~ 2024.02.16)
 
-![beatherb](/uploads/5e6cf29a813b761fe830cc749e19996f/beatherb.PNG)
+![beatherb](https://github.com/Starbow-Break/Beat-Herb/assets/103927296/15b40eaf-dccf-4dea-a63f-d8dae463f49c)
 
 ## :green_book: 목차 :green_book:
 :one: [프로젝트 소개](#1-프로젝트-소개) <br/>
