@@ -1,0 +1,79 @@
+version: "3"
+services:
+
+    beatherb-socket:
+        build:
+            context: ../
+            dockerfile: ./exec/socket/dockerfile
+        ports:
+            - "18080:8080"
+        env_file:
+            - ./env/.env_socket
+        restart: always
+        networks:
+            - kafka-nat
+            - db-nat
+
+    beatherb-backend:
+        build:
+            context: ../
+            dockerfile: ./exec/backend/dockerfile
+        env_file:
+            - ./env/.env_backend
+        volumes:
+            - ./resource:/resource
+        restart: always
+        ports:
+            - "28080:8080"
+        networks:
+            - kafka-nat
+            - db-nat
+
+    hls-process:
+        build:
+            context: ./hls
+            dockerfile: dockerfile
+        env_file:
+            - ./env/.env_hls
+        volumes:
+            - ./resource:/resource
+        networks:
+            - kafka-nat
+        restart: always
+
+    beatherb-mysql:
+        image: mysql
+        env_file:
+            - ./env/.env_database
+        volumes:
+            - ./mysql:/var/lib/mysql
+        networks:
+            - db-nat
+
+    beatherb-redis:
+        image: redis
+        networks:
+            - db-nat
+
+    zookeeper:
+        image: wurstmeister/zookeeper:latest
+        container_name: zookeeper
+        restart: always
+        networks:
+            - kafka-nat
+    kafka:
+        image: wurstmeister/kafka:latest
+        container_name: kafka
+        ports:
+            - "9092:9092"
+        environment:
+            KAFKA_ADVERTISED_HOST_NAME: kafka
+            KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+        networks:
+            - kafka-nat
+
+networks:
+    kafka-nat:
+    db-nat:

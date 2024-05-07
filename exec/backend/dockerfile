@@ -1,0 +1,10 @@
+From openjdk:17
+
+RUN microdnf install findutils
+WORKDIR /app
+COPY ./backend .
+RUN chmod 777 gradlew
+RUN ./gradlew clean bootJar
+# RUN ls build
+RUN mv build/libs/*.jar build/libs/app.jar
+ENTRYPOINT ["java","-jar", "build/libs/app.jar"]
