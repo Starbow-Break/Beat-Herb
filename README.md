@@ -78,11 +78,11 @@
 
 #### 2. 라이브를 활용해 커뮤니티로 확장 :tv:
 ##### 라이브에서 공유하는 컨텐츠에 관심 있는 사람은 누구나 들어와서 라이브 방송에 참여 할 수 있습니다.
-![라이브](/uploads/42041a4f195ef27a198c8e708d1d56c0/live.mp4)
+![라이브](https://github.com/Starbow-Break/Beat-Herb/assets/103927296/a5b08ffe-97c0-4a51-8e63-c0bcb79f43c1)
 
 #### 3. 해시태그를 이용한 상세 검색 :computer:
 ##### 피아노, 드럼, MR 등과 같은 해시태그를 기반으로 정확한 검색 결과를 얻을 수 있습니다.
-![해시태그를 이용한 상세검색](/uploads/d1ae2b01a1cba5cbbf194550fae7d88c/detail_search.mp4)
+![해시태그를 이용한 상세검색](https://github.com/Starbow-Break/Beat-Herb/assets/103927296/5e3aa269-9663-427c-bfea-5480e11c9840)
 
 ## 5. 프로젝트 특징 기술 소개
 #### 1. kafka 도입을 활용한 멀티 프로세싱 음악 처리 후 사용자는 업로드가 되었다는 신호를 보다 빠르게 제공 받을 수 있습니다.<br/> :arrow_forward: (약 10초 이상 -> 약 3초)
