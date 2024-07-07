@@ -67,7 +67,7 @@
 |**전체 컨텐트 게시판 화면**|**라이브 게시판 화면**|
 
 #### 라이브 화면
-|<img alt="livecat" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/19d4e8ea-e2ee-46c7-94ec-16994fa2c917" width="500" height="250">|
+|<img alt="livecat" src="https://github.com/Starbow-Break/Beat-Herb/assets/103927296/adbcfec3-fa59-46a3-a08e-ca7414b2da62" width="500" height="250">|
 |:---:|
 |**라이브 화면**|
 
